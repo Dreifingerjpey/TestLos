@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SuLookUp</title>
+<link href="CSS/LoSStyleSheet.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<div class="summoner">
+		<img  src=${sIcon} alt="" ></img>
+		<div class="summonerdata">		<br>${name}<br>Level: ${lvl} <br>	${devS} <br>${devF} <br></div>
+	</div>
+	
+	<div class="overview">		
+			<br>worldwide rank <br>	serverrank <br>kda
+	</div>
+	
+</body>
+</html>

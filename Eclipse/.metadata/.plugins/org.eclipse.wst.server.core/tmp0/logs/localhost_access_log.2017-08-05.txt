@@ -212,3 +212,7 @@
 0:0:0:0:0:0:0:1 - - [05/Aug/2017:19:23:19 +0200] "GET /LeagueOfStalk/LoSMain.html HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [05/Aug/2017:19:23:19 +0200] "GET /LeagueOfStalk/CSS/LoSStyleSheet.css HTTP/1.1" 304 -
 0:0:0:0:0:0:0:1 - - [05/Aug/2017:19:23:23 +0200] "GET /LeagueOfStalk/SummonerLookup?summoner=Dreifingerjoey HTTP/1.1" 200 663
+127.0.0.1 - - [05/Aug/2017:20:23:49 +0200] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [05/Aug/2017:20:23:49 +0200] "GET /LeagueOfStalk/LoSMain.html HTTP/1.1" 200 591
+0:0:0:0:0:0:0:1 - - [05/Aug/2017:20:23:49 +0200] "GET /LeagueOfStalk/CSS/LoSStyleSheet.css HTTP/1.1" 200 295
+0:0:0:0:0:0:0:1 - - [05/Aug/2017:20:23:55 +0200] "GET /LeagueOfStalk/SummonerLookup?summoner=Dreifingerjoey HTTP/1.1" 200 663

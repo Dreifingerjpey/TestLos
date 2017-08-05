@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+.logo {
+	display: block;
+	margin: auto;
+	width: 40%;
+	position: relative
+}
+.inputData {
+		margin: auto;
+		text-align: center;
+		width: 50%;
+		padding: 10px;
+}
+.button {
+	font-size: 14px;
+	alignment-adjust: central;
+}
+
+.inputfield {
+	font-size: 14px;
+}

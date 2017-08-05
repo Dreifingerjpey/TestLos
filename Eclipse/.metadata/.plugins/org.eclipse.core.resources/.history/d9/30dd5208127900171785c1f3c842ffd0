@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="SummonerStyle.css" />
+<form action="Summoner">
+<input type="submit" value="SummonerLookup"/> 
+</form>
+<meta charset="ISO-8859-1">
+<title>SummonerLookup</title>
+<h1>Lookup</h1>
+<label> type="</label>
+</head>
+<body>
+
+</body>
+</html>

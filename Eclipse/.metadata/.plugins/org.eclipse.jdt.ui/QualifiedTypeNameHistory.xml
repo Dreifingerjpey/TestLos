@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="java.nio.file.Path"/>
+<fullyQualifiedTypeName name="net.rithms.riot.api.endpoints.league.LeagueApiMethod"/>
+<fullyQualifiedTypeName name="net.rithms.riot.api.endpoints.league.dto.LeaguePosition"/>
+<fullyQualifiedTypeName name="net.rithms.riot.api.endpoints.league.methods.GetLeagueBySummonerId"/>
+<fullyQualifiedTypeName name="net.rithms.riot.constant.Platform"/>
+<fullyQualifiedTypeName name="net.rithms.riot.api.endpoints.league.dto.LeagueList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

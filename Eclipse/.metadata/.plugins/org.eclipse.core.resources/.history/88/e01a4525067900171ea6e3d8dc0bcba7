@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/Style.css" />
+<meta charset="ISO-8859-1">
+<title>SummonerLookup</title>
+</head>
+<body>
+
+</body>
+</html>

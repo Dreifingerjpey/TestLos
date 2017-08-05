@@ -1,0 +1,61 @@
+package com.srk.App;
+import net.rithms.riot.api.ApiConfig;
+import net.rithms.riot.api.RiotApi;
+import net.rithms.riot.api.RiotApiException;
+import net.rithms.riot.constant.Platform;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Enumeration;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+
+
+/**
+ * Servlet implementation class Summoner
+ */
+@WebServlet("/SummonerLookup")
+public class SummonerLookup extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	
+    public SummonerLookup() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+				
+				ApiConfig config = new ApiConfig().setKey("RGAPI-7ab68fcd-66fb-4a81-ab31-28caaaa6ef5e");
+				RiotApi api = new RiotApi(config);
+				String name = request.getParameter("summoner");
+				
+			try{
+				net.rithms.riot.api.endpoints.summoner.dto.Summoner summoner = api.getSummonerByName(Platform.EUW, name);
+				//set data for output
+				request.setAttribute("name", name);
+				request.setAttribute("lvl", summoner.getSummonerLevel());
+				String sIcon = "http://ddragon.leagueoflegends.com/cdn/6.24.1/img/profileicon/"+summoner.getProfileIconId()+".png"
+				request.setAttribute("icon", sIcon);	
+				
+				request.getRequestDispatcher("LookUp.jsp").forward(request, response);
+				
+			}catch(Exception e){
+				response.getWriter().println(e.toString());
+			}
+			
+	
+
+		
+	
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

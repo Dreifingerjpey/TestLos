@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {
+	    background-color: white;
+	}
+	
+	.input{
+		background-color: lightgreen;
+		margin: auto;
+		text-align: center;
+		width: 50%;
+		padding: 10px;
+	}
+	
+	.news{
+		background-color: lightblue;
+		text-align: center;
+		width: 50%;
+		padding: 10px;
+		margin: auto;
+		display: block;
+	}
+	.summonerIcon{
+		position: relative;
+		width: 100%;
+	}
+	
+	.profiledata{
+		   position: absolute; 
+		   top: 100px; 
+		   left: 0; 
+		   width: 100%; 
+	}
+	.overview{
+		display: block;
+	    margin: auto;
+	    width: 50%;
+		text-align: center;
+		background-color: lightgreen;
+	}
+	
+	h1{
+		
+	}
+	h2{
+	
+	}
+	
+</style>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<jsp:include page="CSS/Style.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<title>SummonerLookup</title>
+</head>
+
+<body>
+	<div class="profile">		
+		<img src=${sIcon} border="0" alt="" ></img>
+			<br>${name}<br>Level: ${lvl} <br>	${devS} <br>${devF} <br>
+	</div>
+	<div class="overview">		
+		<img src=${sIcon} border="0" alt="" ></img>
+			<br>${name}<br>Level: ${lvl} <br>	${devS} <br>${devF} <br>
+	</div>
+</body>
+</html>

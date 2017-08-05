@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {
+	    background-color: white;
+	}
+	
+	.input{
+		background-color: lightgreen;
+		margin: auto;
+		text-align: center;
+		width: 50%;
+		padding: 10px;
+	}
+	
+	.news{
+		background-color: lightblue;
+		text-align: center;
+		width: 50%;
+		padding: 10px;
+		margin: auto;
+		display: block;
+	}
+	.summoner{
+		display: block;
+		position: relative;
+		width: 50%;
+		margin: auto;
+		padding: 10px;
+	}
+	
+	.summonerdata{
+		   position: absolute; 
+		   top: 10%; 
+		   width: 100%; 
+		   color: white;
+	}
+	.overview{
+		display: block;
+	    margin: auto;
+	    width: 50%;
+		text-align: center;
+		background-color: lightgreen;
+	}
+	
+	h1{
+		
+	}
+	h2{
+	
+	}
+	
+</style>
+</head>
+<body>
+
+</body>
+</html>

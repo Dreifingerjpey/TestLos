@@ -9,7 +9,7 @@
 <title>SummonerLookup</title>
 </head>
 
-<body>
+<body class="body">
 	<div class="summoner">
 		<img  src=${sIcon} alt="" ></img>
 		<div class="summonerdata">		<br>${name}<br>Level: ${lvl} <br>	${devS} <br>${devF} <br></div>

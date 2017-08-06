@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+.body {
+	background-color: #363636;
+}
 
 .logo {
 	display: block;
@@ -8,16 +10,36 @@
 	position: relative
 }
 .inputData {
-		margin: auto;
-		text-align: center;
-		width: 50%;
-		padding: 10px;
+	margin: auto;
+	text-align: center;
+	width: 50%;
+	padding: 10px;
+	background-color: #474747;
+	border-radius: 99px;
+	color: rgba(255,255,255,1.00);
 }
 .button {
 	font-size: 14px;
 	alignment-adjust: central;
+	font-family: electrolize;
+	font-style: normal;
+	font-weight: 400;
 }
 
 .inputfield {
 	font-size: 14px;
+	font-family: electrolize;
+	font-style: normal;
+	font-weight: 400;
+	width: auto;
+}
+.frontpanel {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	font-family: electrolize;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #474747;
+	color: rgba(255,255,255,1.00);
 }

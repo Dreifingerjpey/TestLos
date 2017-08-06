@@ -8,15 +8,16 @@
 
 <title>SummonerLookup</title>
 </head>
-
 <body class="body">
-	<div class="summoner">
-		<img  src=${sIcon} alt="" ></img>
-		<div class="summonerdata">		<br>${name}<br>Level: ${lvl} <br>	${devS} <br>${devF} <br></div>
-	 </div>
+
+	<div class="summonerPreview">
+		<!--<img  src="PICTURES/testSummonerIcon.png" alt="" class="summomerIcon"> </img>-->
+		<img  src=${sIcon} alt="" class="summomerIcon" ></img>
+		<div class="summonerdata"><br>${name}<br>Level: ${lvl} <br>	${devS} <br>${devF} <br></div>
 	
-	<div class="overview">		
+	
 			<br>worldwide rank <br>	serverrank <br>kda
 	</div>
 </body>
+
 </html>

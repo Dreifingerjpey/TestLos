@@ -53,7 +53,7 @@ public class SummonerLookup extends HttpServlet {
 		String devS =league.get(0).getTier()+" "+league.get(0).getEntryBySummonerId(summoner.getId()).getRank()+" "+league.get(0).getEntryBySummonerId(summoner.getId()).getLeaguePoints();
 		String devF =league.get(1).getTier()+" "+league.get(1).getEntryBySummonerId(summoner.getId()).getRank()+" "+league.get(1).getEntryBySummonerId(summoner.getId()).getLeaguePoints();
 		//set Data für Lookup
-		r.setAttribute("name", name.toUpperCase());
+		r.setAttribute("name", name);
 		r.setAttribute("lvl", summoner.getSummonerLevel());
 		r.setAttribute("devS",devS );
 		r.setAttribute("devF",devF );

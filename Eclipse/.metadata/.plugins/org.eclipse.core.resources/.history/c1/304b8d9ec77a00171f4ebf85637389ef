@@ -26,7 +26,7 @@ public class SummonerLookup extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 				
-				ApiConfig config = new ApiConfig().setKey("RGAPI-2211a952-3708-4adb-928c-5f992da2119e");
+				ApiConfig config = new ApiConfig().setKey("RGAPI-4db9338c-728d-4bbc-8736-491b08ea2fd3");
 				RiotApi api = new RiotApi(config);
 				String name = request.getParameter("summoner");
 				net.rithms.riot.constant.Platform platform = Platform.EUW; // hier noch dynamisch änderbar

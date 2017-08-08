@@ -1,0 +1,78 @@
+@charset "utf-8";
+.body {
+	background-color: #363636;
+}
+
+.logo {
+	display: block;
+	margin: auto;
+	width: 40%;
+	position: relative
+}
+.inputData {
+	margin: auto;
+	text-align: center;
+	width: 38%;
+	padding: 10px;
+	background-color: #474747;
+	border-radius: 99px;
+	color: rgba(255,255,255,1.00);
+	font-size: medium;
+}
+.button {
+	font-size: 14px;
+	alignment-adjust: central;
+	font-family: electrolize;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.inputfield {
+	font-size: 14px;
+	font-family: electrolize;
+	font-style: normal;
+	font-weight: 400;
+	width: auto;
+}
+.frontpanel {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	font-family: electrolize;
+	font-style: normal;
+	font-weight: 400;
+	background-color: #474747;
+	color: rgba(255,255,255,1.00);
+}
+.news {
+	font-size: x-large;
+	background-color: rgba(0,0,0,0.00);
+}
+.summonerPreview {
+	text-align: left;
+	font-family: electrolize;
+	font-weight: 400;
+	color: rgba(255,255,255,1.00);
+	background-color: #F8B195;
+	margin-left: 10%;
+	width: 20%;
+	float: left;
+	
+}
+
+.summomerIcon {
+	width: 100%;
+}
+.summonerdata {
+	background-color: rgba(54,54,54,0.50);
+	text-align: left;
+	margin-top: -5%;
+
+}
+.achievements {
+	float: right;
+	color: rgba(255,255,255,1.00);
+	width: 20%;
+	background-color: #F8B195;
+	text-align: center;
+}

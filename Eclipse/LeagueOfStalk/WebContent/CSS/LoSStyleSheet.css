@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import url("RollandinEmilie/stylesheet.css");
 @font-face {
 	font-family: RollandinEmilie;
 	src: url('FONTS/RollandinEmilie.ttf');
@@ -45,15 +44,6 @@
 	background-image: linear-gradient(180deg,rgba(255,255,255,0.10) 0%,rgba(250,250,250,0.00) 47.16%,rgba(255,255,255,0.10) 100%);
 	position: fixed;
 	margin-top: 20%;
-}
-.summonerkompakt{
-	border-style: dotted;
-	border-color: rgba(255,255,255,1.00);
-	-webkit-box-sizing: inherit;
-	-moz-box-sizing: inherit;
-	box-sizing: inherit;
-	position: static;
-	padding-top: 40px;
 }
 .logo {
 	display: block;
@@ -107,39 +97,39 @@
 }
 .summonerPreview {
 	text-align: left;
-	font-family: RollandinEmilie;
 	font-weight: 400;
 	color: rgba(255,255,255,1.00);
 	margin-left: 10%;
-	width: 20%;
+	width: 79%;
 	float: left;
 	border-style: none;
 	
 }
 
 .summomerIcon {
-	width: 100%;
+	float: left;
+
 }
 .summonerdata {
 	background-color: rgba(54,54,54,0.50);
 	text-align: left;
-	margin-top: -5%;
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 }
 .achievements {
-	float: left;
 	color: rgba(255,255,255,1.00);
-	width: 57%;
 	text-align: center;
-	font-family: RollandinEmilie;
 	font-weight: bold;
 	background-color: rgba(54,54,54,0.50);
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
 	box-sizing: content-box;
-	padding-bottom: 32.2%;
+	width: 76%;
+	float: right;
+	padding-top: 0px;
+	margin-top: -126px;
+	padding-bottom: 71px;
 }
 .companyLogo {
 	float: left;

@@ -49,12 +49,11 @@
 	display: block;
 	margin: auto;
 	width: 100%;
-	position: relative;
 	font-family: RollandinEmilie;
 	color: rgba(255,255,255,1.00);
 	font-size: 600%;
 	text-align: center;
-	text-shadow: 0px 0px 525px;
+	text-shadow: 0px 0px;
 	text-indent: 0;
 	float: left;
 }
@@ -71,17 +70,21 @@
 .button {
 	font-size: 30px;
 	alignment-adjust: central;
+	box-shadow: 4px 4px rgba(253,253,253,0.28);
 	font-family: RollandinEmilie;
 	font-style: normal;
 	font-weight: 400;
 	background-position: 39% 53%;
 	background-size: 122% auto;
-	background-origin: border-box;
-	background-repeat: repeat-x;
-	background-color: rgba(0,0,0,0.00);
 	color: rgba(255,255,255,1.00);
 	margin-top: 11px;
 	border-style: dashed;
+	background-color: rgba(0,0,0,0.00);
+}
+.button:active {
+	
+	transform: translate(4px);
+	-webkit-box-shadow: 1px 1px rgba(253,253,253,0.28);
 }
 
 .inputfield {
@@ -100,7 +103,7 @@
 	font-weight: 400;
 	color: rgba(255,255,255,1.00);
 	margin-left: 10%;
-	width: 79%;
+	width: 80%;
 	float: left;
 	border-style: none;
 	
@@ -108,7 +111,6 @@
 
 .summomerIcon {
 	float: left;
-
 }
 .summonerdata {
 	background-color: rgba(54,54,54,0.50);
@@ -122,14 +124,16 @@
 	text-align: center;
 	font-weight: bold;
 	background-color: rgba(54,54,54,0.50);
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
-	box-sizing: content-box;
-	width: 76%;
-	float: right;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	width: 60%;
 	padding-top: 0px;
 	margin-top: -126px;
 	padding-bottom: 71px;
+	float: left;
+	margin-right: 30%;
+	margin-left: 40%;
 }
 .companyLogo {
 	float: left;
@@ -140,7 +144,22 @@
 }
 .mid {
 }
+
+.summonerContent{
+	width: 34%;
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+	margin-left: 87px;
+	
+}
 @font-face {
 	font-family: 'RollandinEmilie';
 	src: url('RollandinEmilie/RollandinEmilie.ttf') format('truetype');
+}
+.matchupTable {
+	width: 100%;
+}
+.matchSummoner{
+	width: 100%;
 }
